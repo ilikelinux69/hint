@@ -1,6 +1,6 @@
 #!/bin/bash
 ################################################################################
-# hint.sh             |   version 1.00    |       GPL v3      |       2017-04-28
+# hint.sh             |   version 1.01    |       GPL v3      |       2017-04-30
 #	  Ilikelinux		    |   https://twitter.com/Ilikelinux69
 #
 #	Replaces cheat.sh   |
@@ -305,7 +305,7 @@ function view_file
 
 ##  Too few args, tsk tsk
 if [ $# -lt 1 ]; then
-    echo "ERROR:  Too few arguments" 1>&2
+    hint -h 1>&2
     exit 1
 fi
 
