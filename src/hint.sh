@@ -113,7 +113,7 @@ function print_help
 
     echo -e "\nExamples:"
     echo -e "  hint tar:\t\tDisplay hint sheet for tar"
-    echo -e "  hint -a FILE:\tAdd FILE to hint sheet directory"
+    echo -e "  hint -a FILE:\t\tAdd FILE to hint sheet directory"
     echo -e "  hint -a *.txt:\tAdd all .txt files in pwd to hint directory"
     echo -e "  hint -k KEYWORD:\tGrep for all filenames containing KEYWORD\n"
 
