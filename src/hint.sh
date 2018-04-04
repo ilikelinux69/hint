@@ -317,7 +317,7 @@ if [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
 fi
 
 ##  If they're looking for version/author info
-if [ "$1" = "--version" ]; then
+if [ "$1" = "-v" ] || [ "$1" = "--version" ]; then
     print_version
     exit 0
 fi
